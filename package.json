@@ -1,0 +1,23 @@
+{
+  "name": "productos",
+  "version": "1.0.0",
+  "description": "Sistema de gestion de productos",
+  "main": "products.js",
+  "dependencies": {
+    "mustache": "^4.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Katerin-Mayra/productos.git"
+  },
+  "author": "Ditmar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Katerin-Mayra/productos/issues"
+  },
+  "homepage": "https://github.com/Katerin-Mayra/productos#readme"
+}

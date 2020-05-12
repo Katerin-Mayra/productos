@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Sistema de gestion de productos",
   "main": "products.js",
+  "type":"module",
   "dependencies": {
     "mustache": "^4.0.1"
   },

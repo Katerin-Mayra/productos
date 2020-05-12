@@ -2,7 +2,7 @@ class Products {
    constructor(name, description, quantity){
        this.name= name;
        this. description=description;
-       this,quantity=quantity;
+       this.quantity=quantity;
    } 
 }
 class ProductsManagement{
@@ -10,7 +10,7 @@ class ProductsManagement{
         this.listproducts=[]
     }
     addProducts(product){
-        this.listproducts.push(products);
+        this.listproducts.push(product);
     }
     removeProducts(product){
         for(var i=0; i<this.listproducts.length;i++){
@@ -24,10 +24,14 @@ class ProductsManagement{
     updateProducts(product,newproduct){
         for(var i=0; i<this.listproducts.length;i++){
             if(this.listproducts[i]==product){
-                this.listproducts[i]==newproduct;
+                this.listproducts[i]=newproduct;
                 return;
             }
+        }
     }
-}
+    showProducts(){
+        return this.listproducts;
+    }
 
 }
+export{Products,ProductsManagement}

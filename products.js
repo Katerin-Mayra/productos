@@ -32,6 +32,10 @@ class ProductsManagement{
     showProducts(){
         return this.listproducts;
     }
+    /*
+    showfirstProducts(){
+        return this.listproducts[0];
+    }*/
 
 }
 export{Products,ProductsManagement}
